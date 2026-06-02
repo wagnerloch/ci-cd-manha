@@ -4,7 +4,7 @@ const app = express();
 const port = process.env.PORT || 3000;
 
 app.get('/', (req: Request, res: Response) => {
-    res.send('Atualização automática através de CI/CD! Atualização feita com sucesso!');
+    res.send('Atualização automática através de CI/CD! Atualização feita com sucesso! 2');
 });
 
 app.listen(port, () => {
